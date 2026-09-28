@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Admin Dashboard</title>
+<style>body{font-family:Arial;max-width:800px;margin:40px auto}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ccc;padding:8px;text-align:left}th{background:#eee}button{padding:8px 16px;cursor:pointer}</style></head>
+<body>
+  <h1>Admin Dashboard</h1>
+  <p>Welcome, <span id="adminName"></span> — total users: <span id="count"></span></p>
+  <table>
+    <thead><tr><th>#</th><th>Full Name</th><th>Email</th><th>Address</th><th>Role</th></tr></thead>
+    <tbody id="usersBody"></tbody>
+  </table><br>
+  <button id="logoutBtn">Logout</button>
+  <script src="admin.js"></script>
+</body></html>
